@@ -1,0 +1,51 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0 !important;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    color: #999999;
+    background-color:rgba(0, 0, 0, .85) !important;
+    padding: 20px 10px;
+}
+
+
+header a {
+    box-sizing: border-box;
+    color: #999999 !important;
+    padding: 12px;
+    margin: 0 12px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a:hover {
+    border: 1px solid #999999!important;
+    text-decoration: none;
+}
+
+
+
+nav {
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+.mymodal {
+    display: none;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
